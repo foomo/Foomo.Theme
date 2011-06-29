@@ -2,7 +2,7 @@
 namespace Foomo\Theme;
 
 /**
- * 
+ *
  */
 class Module extends \Foomo\Modules\ModuleBase implements \Foomo\Frontend\ToolboxInterface
 {
@@ -56,7 +56,7 @@ class Module extends \Foomo\Modules\ModuleBase implements \Foomo\Frontend\Toolbo
 	public static function getMenu()
 	{
 		return array(
-			'Root.Modules.Theme' => array('name' => 'Theme', 'module' => self::NAME, 'app' => 'Foomo\\Theme\\Frontend', 'action' => 'default', 'target' => '_self'),
+			\Foomo\Frontend\ToolboxConfig\MenuEntry::create('Root.Modules.Theme', 'Theme', self::NAME, 'Foomo\\Theme\\Frontend')
 		);
 	}
 }
