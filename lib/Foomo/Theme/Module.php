@@ -76,7 +76,7 @@ class Module extends \Foomo\Modules\ModuleBase implements \Foomo\Frontend\Toolbo
 	public static function getMenu()
 	{
 		return array(
-			\Foomo\Frontend\ToolboxConfig\MenuEntry::create('Root.Modules.Theme', 'Theme', self::NAME, 'Foomo\\Theme\\Frontend')
+			\Foomo\Frontend\ToolboxConfig\MenuEntry::create('Root.Modules.Theme', 'Theme', self::NAME, 'Foomo.Theme')
 		);
 	}
 }
