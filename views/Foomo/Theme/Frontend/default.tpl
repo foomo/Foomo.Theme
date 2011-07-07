@@ -14,6 +14,30 @@
 	</div>
 </div>
 
+
+<div class="errorMessage">
+	Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt ut labore et dolore magna aliqua.<br>
+</div>
+
+<div class="clearBox">
+	<div class="halfBox">
+		<div class="greyBox">
+			<div class="innerBox">
+				Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+		</div>
+	</div>
+	<div class="halfBox">
+		<div class="whiteBox">
+			<div class="innerBox">
+				Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt ut labore et dolore magna aliqua.<br>
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+		</div>
+	</div>
+</div>
+
 <hr>
 <hr class="greyLine">
 
