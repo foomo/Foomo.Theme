@@ -179,9 +179,9 @@
 	<div class="formBox">	
 		<div class="formTitle">Radio Buttons:</div>
 		<div class="horizontalBox">
-			<div class="floatLeftSpaceBox"><input type="radio" class="radioButton" name="radio_button" value="radio_1" /><br>Radio 1</div>
-			<div class="floatLeftSpaceBox"><input type="radio" class="radioButton" name="radio_button" value="radio_2" /><br>Radio 2</div>
-			<div class="floatLeftSpaceBox"><input type="radio" class="radioButton" name="radio_button" value="radio_3" /><br>Radio 3</div>
+			<div class="floatLeftSpaceBox"><input type="radio" name="radio_button" value="radio_1" /><br>Radio 1</div>
+			<div class="floatLeftSpaceBox"><input type="radio" name="radio_button" value="radio_2" /><br>Radio 2</div>
+			<div class="floatLeftSpaceBox"><input type="radio" name="radio_button" value="radio_3" /><br>Radio 3</div>
 		</div>
 		<br>
 	</div>
@@ -189,9 +189,9 @@
 	<div class="formBox">	
 		<div class="formTitle">Checkboxes:</div>
 		<div class="horizontalBox">
-			<div class="floatLeftSpaceBox"><input type="checkbox" class="checkBox" name="checkboxes" value="check_1" /><br>Checkbox 1</div>
-			<div class="floatLeftSpaceBox"><input type="checkbox" class="checkBox" name="checkboxes" value="check_2" /><br>Checkbox 2</div>
-			<div class="floatLeftSpaceBox"><input type="checkbox" class="checkBox" name="checkboxes" value="check_3" /><br>Checkbox 3</div>
+			<div class="floatLeftSpaceBox"><input type="checkbox" name="checkboxes" value="check_1" /><br>Checkbox 1</div>
+			<div class="floatLeftSpaceBox"><input type="checkbox" name="checkboxes" value="check_2" /><br>Checkbox 2</div>
+			<div class="floatLeftSpaceBox"><input type="checkbox" name="checkboxes" value="check_3" /><br>Checkbox 3</div>
 		</div>
 		<br>
 	</div>
@@ -207,8 +207,8 @@
 	</div>
 
 	<div class="formBox">
-		<input class="submitButton" type="reset" value="Clear" />
-		<input class="submitButton" type="submit" value="Submit" />
+		<input type="reset" value="Clear" />
+		<input type="submit" value="Submit" />
 	</div>
 	
 </div>
