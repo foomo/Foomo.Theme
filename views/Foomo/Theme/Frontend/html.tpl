@@ -11,14 +11,14 @@
 <br>
 
 <h3>Ordered List</h3>
-<ol class="list">
+<ol class="olList">
 	<li>List Item 1</li>
 	<li>List Item 2</li>
 	<li>List Item 3</li>
 </ol>
 
 <h3>Unordered List</h3>
-<ul class="list">
+<ul class="ulList">
 	<li>List Item 1</li>
 	<li>List Item 2</li>
 	<li>List Item 3</li>
